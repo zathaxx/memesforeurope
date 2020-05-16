@@ -1,19 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title>Memes for Europe</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="images/euflag.png" type="image/png"/>
+<link rel="stylesheet" type="text/css" media="screen" href="styles/style2.css" />
+<style>  
+  body { 
+	  color: white;
+	  
+}
 body {
-height: 100%;
-margin: 0;
-padding: 0;
-font-family: sans-serif;
-background: linear-gradient(to bottom, #6db3f2 0%,#54a3ee 25%,#3690f0 33%,#54a3ee 72%,#1e69de 100%) no-repeat fixed center;
-background-size: 100%;
-color:white;
+   background: linear-gradient(to bottom, #6db3f2 0%,#54a3ee 25%,#3690f0 33%,#54a3ee 72%,#1e69de 100%) no-repeat fixed center;
+   background-size: 100%;
+}
+	
+	body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+	font-family: sans-serif;
 }
 
 /* The hero image */
 .image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("stock3.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/stock3.jpg");
+
   /* Set a specific height */
   height: 50%;
+
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -21,6 +37,7 @@ color:white;
   position: relative;
   box-shadow: 0px 10px;
 }
+
 /* Place text in the middle of the image */
 .text {
   text-align: center;
@@ -41,19 +58,21 @@ color:white;
 	color: gray;
 	text-decoration: none;
 	padding: 6px
-	
 }
 .text a:hover {
     background-color: #d8d8d8;
     cursor: pointer;
 }
+</style>
+</head>
+<body>
 
-a {
-    color: white;
-}
-a:hover {
-    color: aqua;
-}
-a:active {
-    color: aquamarine;
-}
+ <div class="image">
+  <div class="text">
+    <h1>MemesForEurope</h1>
+    <p>We will together defeat meme opression in Europe!</p>
+    <a href="pages/directive.html">Information on the EU Copyright Directive.</a>
+  </div>
+</div> 
+</body>
+</html>
